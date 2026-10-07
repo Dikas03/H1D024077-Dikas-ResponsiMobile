@@ -8,7 +8,30 @@ Aplikasi mobile berbasis Android untuk mencari, melihat, menyaring kategori, men
 <img width="300" height="900" alt="image" src="https://github.com/user-attachments/assets/3b4a29a7-9088-48a1-a5e2-ed649ece93f0" />
 <img width="300" height="900" alt="image" src="https://github.com/user-attachments/assets/73f8e7cd-6080-4c5b-bd16-1e7f03debc35" />
 
-
+1.
+Home Screen & Menu Kategori:
+◦
+LazyColumn & LazyRow: Merender list game dan baris kategori (CategoryChipRow) secara efisien dengan FilterChip Material 3.
+◦
+Debounced Search: Menggunakan coroutine delay(500) pada StateFlow searchQuery untuk mencegah spam request API saat mengetik.
+◦
+API Filtering: Pilihan kategori langsung mengirim parameter genres ke RAWG API.
+2.
+Detail Screen & Fitur Download:
+◦
+DownloadState & Coroutine Simulation: Mengelola state unduhan (Idle, Downloading, Completed) di DetailViewModel dengan LinearProgressIndicator dan counter MB secara real-time.
+◦
+DTO Parsing & Null Safety: Pengambilan data rating, tanggal rilis ISO 8601, pembersihan tag HTML deskripsi, dan badge Metascore.
+3.
+Logo & Branding KasGame (Ikon Daun Ganja):
+◦
+Vector Drawable & Adaptive Icon: Desain ikon vektor daun ganja ( ic_cannabis.xml) dengan background gelap (#121D13) pada folder mipmap.
+◦
+TopAppBar Header: Integrasi ikon daun ganja di samping teks KasGame.
+4.
+Arsitektur MVVM & Repository:
+◦
+Layered Architecture: Pemisahan Model, Repository (Dispatchers.IO), ViewModel (StateFlow), dan View (Compose).
 
 ## 📋 Daftar Isi
 1. [Fitur & Pemenuhan Persyaratan Teknis](#-fitur--pemenuhan-persyaratan-teknis)
