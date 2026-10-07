@@ -4,9 +4,9 @@ Aplikasi mobile berbasis Android untuk mencari, melihat, menyaring kategori, men
 
 ---
 
-<img width="400" height="1200" alt="image" src="https://github.com/user-attachments/assets/fa06534a-25ce-4798-8096-5710aefb65c6" />
-<img width="400" height="1200" alt="image" src="https://github.com/user-attachments/assets/3b4a29a7-9088-48a1-a5e2-ed649ece93f0" />
-<img width="400" height="1200" alt="image" src="https://github.com/user-attachments/assets/73f8e7cd-6080-4c5b-bd16-1e7f03debc35" />
+<img width="300" height="900" alt="image" src="https://github.com/user-attachments/assets/fa06534a-25ce-4798-8096-5710aefb65c6" />
+<img width="300" height="900" alt="image" src="https://github.com/user-attachments/assets/3b4a29a7-9088-48a1-a5e2-ed649ece93f0" />
+<img width="300" height="900" alt="image" src="https://github.com/user-attachments/assets/73f8e7cd-6080-4c5b-bd16-1e7f03debc35" />
 
 
 
